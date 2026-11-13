@@ -7,7 +7,7 @@ gesamter Spielzeit, Season, Woche, Tag, Session, Match oder eigenem Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.0** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.1** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -71,3 +71,13 @@ MetaForge.
 
 Waffen-, Gunsmith- und Aufsatzdaten stammen von MetaForge. Wardogs Tracker ist ein privates
 Fan-Projekt und steht in keiner Verbindung zu den Entwicklern von Wardogs.
+
+## Lizenz
+
+Wardogs Tracker (c) 2026 Klayment, alle Rechte vorbehalten. Kostenlos für den privaten Gebrauch;
+weitergeben bitte nur als Link auf diese Release-Seite. Die genauen Bedingungen stehen in
+`LICENSE`, die Lizenzen der enthaltenen Bibliotheken in `THIRD-PARTY-NOTICES.txt`. Beides liegt
+jedem Release bei und ist im Tracker unter Einstellungen > Lizenz und Hinweise abrufbar.
+
+Spielbilder, Waffen- und Fahrzeugnamen gehören den Rechteinhabern von Wardogs und sind von dieser
+Lizenz nicht erfasst.
