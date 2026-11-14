@@ -7,7 +7,7 @@ gesamter Spielzeit, Season, Woche, Tag, Session, Match oder eigenem Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.1** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.2** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
