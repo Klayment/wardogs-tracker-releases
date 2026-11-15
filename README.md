@@ -7,7 +7,7 @@ gesamter Spielzeit, Season, Woche, Tag, Session, Match oder eigenem Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.4** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.5** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -26,7 +26,8 @@ Trotzdem: Wardogs nutzt Anti-Cheat. **Nutzung auf eigene Gefahr.**
 3. Beim ersten Start öffnet sich das Dashboard. In den **Einstellungen** den eigenen
    **Spielernamen** eintragen, genau wie im Spiel. Ohne Namen kann der Tracker Kills und Tode nicht
    zuordnen.
-4. Spielen. Gezählt wird nur, solange Wardogs im Vordergrund ist.
+4. Spielen. Gezählt wird, solange Wardogs im Vordergrund oder unverdeckt sichtbar ist, etwa wenn der
+   Fokus auf einem zweiten Monitor liegt.
 
 Wer die Datei prüfen will: zu jeder exe liegt `WardogsTracker.exe.sha256` im Release, in
 PowerShell vergleichen mit `Get-FileHash WardogsTracker.exe`.
