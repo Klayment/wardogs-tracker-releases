@@ -2,12 +2,13 @@
 
 Stat-Tracker für Wardogs. Läuft im Hintergrund (Tray-Symbol), liest den Bildschirm aus und zeigt
 alles in einem Dashboard im Browser: K/D, Kills, Tode, Headshot-Rate, Geld je Session und je
-Match, Waffen samt Gunsmith-Werten, Maps, Opfer, Nemesis, Entfernungen, Belohnungen. Filter nach
-gesamter Spielzeit, Season, Woche, Tag, Session, Match oder eigenem Zeitraum.
+Match, Waffen samt Gunsmith-Werten, Maps, Opfer, Nemesis, Entfernungen, Belohnungen, EP und
+Level je Klasse. Filter nach gesamter Spielzeit, Season, Woche, Tag, Session, Match oder eigenem
+Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.6** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.7** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -39,6 +40,10 @@ Beenden. Das Dashboard läuft unter <http://127.0.0.1:8765/>, nur auf dem eigene
 
 Waffen erkennt der Tracker am Killfeed-Symbol. In der Waffentabelle ordnet man jedem Symbol eine
 Waffe oder Fahrzeuggruppe zu, gleiche Zuordnung fasst Symbole zusammen.
+
+Die Seite **Klassen** zeigt EP und Level je Klasse, gelesen vom Endbildschirm (Tab PROGRESSION),
+dazu Schnitt und Prognose bis zum nächsten oder einem gewählten Level. Den Startstand trägt man
+einmal von Hand aus Tab > Progression ein, danach zählt der Tracker selbst weiter.
 
 Seasons trägt man in den Einstellungen als `Name;JJJJ-MM-TT` ein, eine pro Zeile.
 
