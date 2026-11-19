@@ -8,7 +8,7 @@ Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.21** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.22** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -50,7 +50,8 @@ Seasons trägt man in den Einstellungen als `Name;JJJJ-MM-TT` ein, eine pro Zeil
 ## Discord-Bot
 
 Die eigenen Stats lassen sich im Discord abrufen, auch wenn der PC aus ist: `/stats` (wahlweise
-für heute, Woche, Season oder gesamt), `/geld`, `/heute` und `/waffen`. Jeder sieht nur seine
+für heute, Woche, Season oder gesamt), `/geld`, `/heute`, `/waffen`, `/match` (letztes Match),
+`/rekorde` und `/vergleich` (gegen Vortag, Vorwoche oder die Season davor). Jeder sieht nur seine
 eigenen Zahlen.
 
 1. Den Bot auf den Server holen (Admin, einmal):
