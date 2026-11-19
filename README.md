@@ -54,7 +54,7 @@ für heute, Woche, Season oder gesamt), `/geld`, `/heute` und `/waffen`. Jeder s
 eigenen Zahlen.
 
 1. Den Bot auf den Server holen (Admin, einmal):
-   <https://discord.com/oauth2/authorize?client_id=1572914410547183696&scope=applications.commands>
+   <https://discord.com/oauth2/authorize?client_id=1572914410547183696&scope=bot+applications.commands&permissions=0>
 2. Im Discord `/link` tippen, der Code ist nur für dich sichtbar und 10 Minuten gültig.
 3. Im Dashboard unter **Einstellungen > Discord** den Code eintragen und **Verknüpfen** klicken.
 
