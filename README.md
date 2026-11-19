@@ -8,7 +8,7 @@ Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.19** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.20** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -46,6 +46,21 @@ dazu Schnitt und Prognose bis zum nächsten oder einem gewählten Level. Den Sta
 einmal von Hand aus Tab > Progression ein, danach zählt der Tracker selbst weiter.
 
 Seasons trägt man in den Einstellungen als `Name;JJJJ-MM-TT` ein, eine pro Zeile.
+
+## Discord-Bot
+
+Die eigenen Stats lassen sich im Discord abrufen, auch wenn der PC aus ist: `/stats` (wahlweise
+für heute, Woche, Season oder gesamt), `/geld`, `/heute` und `/waffen`. Jeder sieht nur seine
+eigenen Zahlen.
+
+1. Den Bot auf den Server holen (Admin, einmal):
+   <https://discord.com/oauth2/authorize?client_id=1572914410547183696&scope=applications.commands>
+2. Im Discord `/link` tippen, der Code ist nur für dich sichtbar und 10 Minuten gültig.
+3. Im Dashboard unter **Einstellungen > Discord** den Code eintragen und **Verknüpfen** klicken.
+
+Hochgeladen werden nach jedem Match nur deine Zahlen, Waffennamen und dein Kontostand, keine
+Spielernamen. **Trennen** im Dashboard oder `/unlink` löscht die Daten beim Bot.
+[Datenschutz](PRIVACY.md) · [Nutzungsbedingungen](TERMS.md)
 
 ## Updates
 
