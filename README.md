@@ -8,7 +8,7 @@ Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.20** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.21** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -84,6 +84,9 @@ Alles bleibt auf dem eigenen Rechner, in `%LOCALAPPDATA%\WardogsTracker`:
 - `tracker.db` - die Statistik (SQLite)
 - `config.json` - die Einstellungen
 - `tracker.log` - Protokoll für die Fehlersuche
+
+Erkennt der Tracker nichts, hilft **Einstellungen > Diagnose speichern**: eine zip mit Logs,
+Einstellungen und ein paar Kennwerten, ohne die eigenen Namen und ohne die Datenbank.
 
 Ins Netz geht nur die Update-Abfrage an GitHub und, beim Laden der Waffendaten, die Abfrage an
 MetaForge.
