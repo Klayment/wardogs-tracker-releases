@@ -8,7 +8,7 @@ Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.28** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.29** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
@@ -24,7 +24,9 @@ Trotzdem: Wardogs nutzt Anti-Cheat. **Nutzung auf eigene Gefahr.**
    eigenen Ordner legen, zum Beispiel `%LOCALAPPDATA%\Programs\Wardogs Tracker`.
 2. Starten. Die exe ist nicht signiert, deshalb warnt Windows SmartScreen beim ersten Start:
    **Weitere Informationen > Trotzdem ausführen**.
-3. Beim ersten Start öffnet sich das Dashboard. In den **Einstellungen** den eigenen
+3. Beim ersten Start öffnet sich das Dashboard mit den Nutzungsbedingungen (Deutsch oder
+   Englisch). Erst nach **Akzeptieren** zählt der Tracker, **Ablehnen** beendet ihn.
+   Danach in den **Einstellungen** den eigenen
    **Spielernamen** eintragen, genau wie im Spiel. Ohne Namen kann der Tracker Kills und Tode nicht
    zuordnen.
 4. Spielen. Gezählt wird, solange Wardogs im Vordergrund oder unverdeckt sichtbar ist, etwa wenn der
@@ -83,7 +85,8 @@ erhalten. Von Hand geht es auch: Tracker beenden, neue exe über die alte kopier
 Alles bleibt auf dem eigenen Rechner, in `%LOCALAPPDATA%\WardogsTracker`:
 
 - `tracker.db` - die Statistik (SQLite)
-- `config.json` - die Einstellungen
+- `config.json` - die Einstellungen; der Discord-Schlüssel darin ist mit Windows verschlüsselt
+  und nur auf diesem Rechner unter diesem Konto lesbar
 - `tracker.log` - Protokoll für die Fehlersuche
 
 Erkennt der Tracker nichts, hilft **Einstellungen > Diagnose speichern**: eine zip mit Logs,
@@ -100,9 +103,30 @@ Fan-Projekt und steht in keiner Verbindung zu den Entwicklern von Wardogs.
 ## Lizenz
 
 Wardogs Tracker (c) 2026 Klayment, alle Rechte vorbehalten. Kostenlos für den privaten Gebrauch;
-weitergeben bitte nur als Link auf diese Release-Seite. Die genauen Bedingungen stehen in
+weitergeben bitte nur als Link auf diese Release-Seite. Entpacken, Dekompilieren und das
+Nachbauen der Erkennung sind nicht erlaubt. Die genauen Bedingungen stehen in
 `LICENSE`, die Lizenzen der enthaltenen Bibliotheken in `THIRD-PARTY-NOTICES.txt`. Beides liegt
 jedem Release bei und ist im Tracker unter Einstellungen > Lizenz und Hinweise abrufbar.
 
 Spielbilder, Waffen- und Fahrzeugnamen gehören den Rechteinhabern von Wardogs und sind von dieser
 Lizenz nicht erfasst.
+
+## English
+
+Stat tracker for Wardogs. It runs in the background, reads the screen like recording software and
+shows your stats in a local dashboard at <http://127.0.0.1:8765/>. It never touches the game
+process, but Wardogs uses anti-cheat: **use at your own risk**.
+
+1. Download `WardogsTracker.exe` from [Releases](../../releases/latest) and put it in a folder of
+   its own. SmartScreen warns on first start because the exe is not signed: **More info > Run
+   anyway**.
+2. On first start the dashboard shows the terms of use. The tracker only starts counting after
+   you click **Accept**; **Decline** quits it.
+3. Enter your in-game player name under **Einstellungen** (settings). Game language must be
+   English.
+
+All data stays on your PC in `%LOCALAPPDATA%\WardogsTracker`. The tracker only contacts GitHub
+(updates), MetaForge (weapon data) and, if you link it, the Discord bot. Free for private,
+non-commercial use; share it only by linking to this page. Unpacking, decompiling or copying its
+detection logic is not permitted. Full terms in `LICENSE` (German version prevails), third-party
+licenses in `THIRD-PARTY-NOTICES.txt`.
