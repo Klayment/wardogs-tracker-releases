@@ -8,7 +8,7 @@ Zeitraum.
 
 Getrackt wird auf jedem Server, nur die Firing Range nicht.
 
-Aktuelle Version: **0.1.33** (frühe Fassung, Fehler sind möglich).
+Aktuelle Version: **0.1.34** (frühe Fassung, Fehler sind möglich).
 
 ## Wichtig: Anti-Cheat
 
